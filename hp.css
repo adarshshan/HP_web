@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    width: 100%;
+    background: #fff;
+}
+header .header-one{
+    width: 100%;
+    display: flex;
+    height: 30px;
+    background: rgb(247, 245, 245);
+}
+header .header-two{
+    width: 100%;
+    display: flex;
+    height: 75px;
+    
+    
+}
+.head-left{
+    width: 50%;
+    display: flex;
+}
+.head-right{
+    width: 50%;
+    display: flex;
+}
+.head-btn{
+    width: 100px;
+    height: 33px;
+    background: black;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 19px;
+}
+header .header-two ul{
+    display: flex;
+    margin-left: 0px;
+    list-style: none;
+    margin-top:21px;
+    
+}
+header .header-two ul li{
+    margin-left: 40px;
+   
+
+}
+.header-two ul li:hover{
+   
+   border-bottom: 5px solid rgb(59, 49, 236);
+}
+header .header-two ul li a{
+    font-size: 22px;
+    text-decoration: none;
+    color: rgb(154, 152, 152);
+}
+.head-right a{
+    margin-top: 25px;
+    margin-left: 29px;
+    color: rgb(37, 36, 36);
+
+}
+.head-right span:hover .head-right a{
+    color: rgb(54, 7, 99);
+}
+.explore{
+    display: none;
+}
+header ul li:hover .explore{
+    width: 935px;
+    background: #fff;
+    display: flex;
+    position: absolute;
+    top: 110px;
+    padding: 10px 66px;
+    left: 136px;
+    z-index: 1;
+    
+}
+.ex-col{
+    padding: 20px 9px;
+}
+.explore p{
+    margin-top: 20px;
+    margin-left: 18px;
+    color: rgb(111, 110, 110);
+}
+.explore h5{
+    font-size: 20px;
+}
+.shop{
+    display: none;
+}
+header ul li:hover .shop{
+    width: 935px;
+    background: #fff;
+    display: flex;
+    position: absolute;
+    top: 110px;
+    padding: 10px 66px;
+    left: 249px;
+    
+}
+.shop p{
+    margin-top: 20px;
+    margin-left: 18px;
+    color: rgb(111, 110, 110);
+}
+.shop h5{
+    font-size: 20px;
+}
+.support{
+    display: none;
+}
+header ul li:hover .support{
+    width: 935px;
+    background: #fff;
+    display: flex;
+    position: absolute;
+    top: 110px;
+    padding: 10px 66px;
+    left: 184px;
+}
+.support p{
+    margin-top: 20px;
+    margin-left: 18px;
+    color: rgb(111, 110, 110);
+}
+.support h5{
+    font-size: 20px;
+}
+/*-----page-1-----*/
+.main-container{
+    width: 100%;
+}
+.page-1{
+    width: 100%;
+    height: 101vh;
+    background-image: url('images/p-1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+/*-----page-2-----*/
+.page-2{
+    width: 100%;
+}
+.page-2 .head-1{
+    height: 130px;
+    width: 100%;
+    font-size: 35px;
+    font-weight: 300;
+    padding: 60px 30px;
+    border-bottom: 1px solid black;
+}
+.page-2 .head-2{
+    width: 100%;
+    font-weight: 100;
+    padding: 5px 30px;
+}
+.page-2 .head-3{
+    width: 100%; 
+    display: flex;
+    margin-top: 45px;
+}
+.page-2 .head-3 .box{
+    width: 30%;
+    height: 409px;
+    border: 1px solid black;
+    margin-left: 30px;
+}
+.page-2 .head-4{
+    width: 100%;
+    display: flex;
+    padding-top: 65px;
+}
+.box-1{
+    width: 30%;
+    height: 408px;
+    margin-left: 28px;
+}
+.learn-bttn{
+    width: 83px;
+    height: 34px;
+    background: black;
+    color: #fff;
+    border: none;
+    font-size: 17px;
+}
+.box-1 h4{
+    font-size: 22px;
+    margin-top: 10px;
+    font-weight: 100;
+}
+.sm{
+    margin-top: 20px;
+}
+.sm a{
+    font-size: 16px;
+    margin-left: 10px;
+}
+.page-2 .head-5{
+    width: 100%;
+    display: flex;
+    padding-top: 30px;
+}
+/*-----page-3----*/
+.page-3{
+    height: 81vh;
+    width: 100%;
+    margin-top: 101px;
+}
+.page-3 .cont-3{
+    width: 100%;
+    display: flex;
+    height: 442px;
+    padding: 0 20px;
+}
+.page-3 .cont-3 .left-3{
+    width: 59%;
+    height: 100%;
+}
+.page-3 .cont-3 .right-3{
+    width: 41%;
+    height: 100%;
+}
+.page-3 .cont-3 .right-3 .right-3_1{
+    width: 96%;
+    border-bottom: 1px solid black;
+    padding-bottom: 18px;
+    margin-left: 30px;
+}
+.page-3 .cont-3 .right-3 .right-3_2{
+    width: 100%;
+    margin-left: 26px;
+    
+}
+/*-----footer----*/
+footer{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+footer .foot-1{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 35px 100px;
+    border-bottom: 3px solid white;
+}
+.shop-btn{
+    width: 100px;
+    height: 43px;
+    background: rgb(235, 234, 234);
+    border: none;
+    font-size: 17px;
+
+}
+footer .foot-2{
+    width: 1200px;
+    margin: 0px auto;
+    color: #fff;
+}
+footer .foot-2 .foot2-1{
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid white;
+}
+footer .foot-2 .foot2-2{
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid white;
+}
+footer .foot-2 .foot2-2 .foot-col{
+    width: 20%;
+    padding-top: 26px;
+    padding-bottom: 30px;
+
+}
+footer .foot-2 .foot2-2 .foot-col p{
+    margin-top: 10px;
+
+}
+footer .foot-2 .foot2-2 .foot-col h6{
+    font-size: 14px;
+    margin-bottom: 11px;
+}
+footer .foot-2 .foot2-2 .foot-col p a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+footer .foot-2 .foot2-3{
+    width: 100%;
+}
+.end1{
+    display: flex;
+    margin: 20px 0px;
+}
+.end1 a{
+    margin-left: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+}
+.end2 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    margin-left: 8px;
+
+}

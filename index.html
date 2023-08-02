@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="hp.css">
+    <script src="https://kit.fontawesome.com/718fa3d4ba.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://kit.fontawesome.com/718fa3d4ba.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="main-container">
+            <div class="header-one">
+                <img style="height: 100%; margin-left: 30px;" src="https://www8.hp.com/content/dam/sites/worldwide/galactic-nav/z-by-hp-new.png" alt="">
+                <img style="height: 100%; margin-left: 30px;" src="https://www8.hp.com/content/dam/sites/worldwide/galactic-nav/OMEN-logo3.png" alt="">
+                <img style="height: 100%; margin-left: 30px;" src="https://www8.hp.com/content/dam/sites/worldwide/galactic-nav/poly@3x.png" alt="">
+            </div>
+            <div class="header-two">
+                <div class="head-left">
+                    <img style="width: 122px; height: 60px; margin-top: 10px;" src="data:image/png;base64,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" alt="">
+                <ul>
+                    <li><a href="#">Explore</a>
+                        <div class="explore">
+                            <div class="ex-col">
+                                <h5>Featured</h5>
+                                <p>Educational Solutions</p>
+                                <p>Print Learn Center</p>
+                                <p>Creator's Garage</p>
+                                <p>Work from Anywhere Service</p>
+                                <p>Sustainable Impact</p>
+                            </div>
+                            <div class="ex-col">
+                                <h5>PCs</h5>
+                                <p>Laptops</p>
+                                <p>Desktops</p>
+                                <p>Gaming</p>
+                                <p>Monitors</p>
+                                <p>Accessories</p>
+                                <p>Bussiness laptops</p>
+                                <p>Bussiness Desktops</p>
+                                <p>Z Workstations and vR</p>
+                            </div>
+                            <div class="ex-col">
+                                <h5>Print</h5>
+                                <p>Ink & toner cartridges</p>
+                                <p>Home printers</p>
+                                <p>Home office & Bussiness printers</p>
+                                <p>Scanners</p>
+                                <p>Large-format printers & plotters</p>
+                                <p>Industrial presses</p>
+                                <p>Managed print services</p>
+                            </div>
+                            <div class="ex-col">
+                                <h5>Bussiness solutions</h5>
+                                <p>3D print</p>
+                                <p>Workforce solutions</p>
+                                <p>Security</p>
+                                <p>Digital workspaces</p>
+                                <p>Bussiness Services</p>
+                                <p>Consumer services</p>
+                                <p>Small & medium</p>
+                                <p>Explore</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#">Shop</a>
+                        <div class="shop">
+                            <div class="ex-col">
+                                <h5>Featured</h5>
+                                <p>HP com store</p>
+                                <p>Store Offers Sale</p>
+                                <p>Latest products</p>
+                                <p>Bussiness store</p>
+                                <p>Corporate Employee purchase</p>
+                                <p>buying guides</p>
+                            </div>
+                            <div class="ex-col">
+                                <h5>Print</h5>
+                                <p>Printers for bussiness</p>
+                                <p>Printer on sale</p>
+                                <p>Printer Selector</p>
+                                <p>Buying Guides</p>
+                                <p>view ALL printers</p>
+                                <p>Ink & Toner</p>
+                                <p>Carepack</p>
+                            </div>
+                            <div class="ex-col">
+                                <h5>PCs</h5>
+                                <p>Laptops for Home</p>
+                                <p>Laptops for Work</p>
+                                <p>Laptop on sale</p>
+                                <p>View All Laptops</p>
+                                <p>Desktops for Home</p>
+                                <p>Desktops for home</p>
+                                <p>Desktops for Work</p>
+                                <p>Desktop on sale</p>
+                                <p>View all Desktops</p>
+                                <p>Gaming</p>
+                                <p>Buying Guides</p>
+                            </div>
+                            <div class="ex-col">
+                                <h5>Displays & Accessories</h5>
+                                <p>Monitors for Home</p>
+                                <p>Monitors for work</p>
+                                <p>Gaming Monitors</p>
+                                <p>view all Monitors</p>
+                                <p>Accessories</p>
+                                <p>Gaming Accessories</p>
+                                <p>Buying Guides</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#">Support</a>
+                        <div class="support">
+                            <div class="ex-col">
+                                <h5>Problem Solving</h5>
+                                <p>Support & troubling</p>
+                                <p>Software & drivers</p>
+                                <p>Diagnostic tools</p>
+                                <p>Connunity</p>
+                                <p>Windows 10/Windows 11 Support</p>
+                            </div>
+                            <div class="ex-col">
+                                <h5>Support by Product</h5>
+                                <p>Printing</p>
+                                <p>Computing</p>
+                                <p>Other Products</p>
+                            </div>
+                            <div class="ex-col">
+                                <h5>Support</h5>
+                                <p>contact us</p>
+                                <p>Check Warranty</p>
+                                <p>Authorized Service Providers</p>
+                                <p>Security Bulletin archive</p>
+                                <p>Parts Stores</p>
+                                <p>Consumer services</p>
+                                <p>Product resignation</p>
+                            </div>
+                            <div class="ex-col">
+                                <h5>Store Support</h5>
+                                <p>Contact store support</p>
+                                <p>Track my order</p>
+                                <p>Store FAQ</p>
+                                <p>Carepacks</p>
+                                <p>Return Policy</p>
+                                <p>Payment</p>
+                                <p>How to order</p>
+                            </div>
+
+                        </div>
+                    </li>
+                </ul>
+                </div>
+                <div class="head-right">
+                    <input style="height: 49px; width: 439px; margin-top: 13px; font-size: 16px;" type="search" name="" id="" placeholder="Search HP.com">
+                <a href="#"><span class="material-symbols-outlined">
+                    shopping_cart
+                    </span></a>
+                <button class="head-btn">Sign In</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="main-container">
+        <section class="page-1"></section>
+        <section class="page-2">
+            <div class="head-1">
+                <h1 style="font-weight: 100;">Hey there!</h1>
+            </div>
+            <div class="head-2">
+                <h3 style="font-size: 29px; font-weight: 100;">What can we help you find today?</h3>
+            </div>
+            <div class="head-3">
+                <div class="box">
+                    <a href="#"><img style="width: 100%; height: 86%;" src="https://www.hp.com/content/dam/sites/worldwide/homepage/images/Mask-Group-278@2x.png" alt=""></a>
+                    <div style="width: 100%;
+                    height: 14%;
+                    background: rgb(46, 44, 46);
+                    text-align: center;
+                    color: #fff;
+                    font-size: 29px;
+                    padding: 12px 0;">
+                    Printers</div>
+                </div>
+                <div class="box">
+                    <a href="#"><img style="width: 100%; height: 86%;" src="https://www.hp.com/content/dam/sites/worldwide/homepage/images/Mask-Group-279@2x.png" alt=""></a>
+                    <div style="width: 100%;
+                    height: 14%;
+                    background: rgb(46, 44, 46);
+                    text-align: center;
+                    color: #fff;
+                    font-size: 29px;
+                    padding: 12px 0;">
+                    PCs</div>
+                </div>
+                <div class="box">
+                    <a href="#"><img style="width: 100%; height: 86%;" src="https://www.hp.com/content/dam/sites/worldwide/homepage/images/Mask-Group-277@2x.png" alt=""></a>
+                    <div style="width: 100%;
+                    height: 14%;
+                    background: rgb(46, 44, 46);
+                    text-align: center;
+                    color: #fff;
+                    font-size: 29px;
+                    padding: 12px 0;">
+                    Monitors and Accessories</div>
+                </div>
+            </div>
+            <div class="head-4">
+                <div class="box-1">
+                    <img style="height: 76%; width: 100%;" src="https://www.hp.com/content/dam/sites/worldwide/homepage/images/HPInkTank4101.jpg" alt="">
+                    <div>
+                        <h4>Home</h4>
+                        <div class="sm">
+                            <button class="learn-bttn">Learn</button>
+                            <a style="text-decoration: none; color: black;" href="#">Shop <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-1">
+                    <img style="height: 76%; width: 100%;" src="https://www.hp.com/content/dam/sites/worldwide/homepage/images/HPSmartTank515.jpg" alt="">
+                    <div>
+                        <h4>Micro Bussiness</h4>
+                        <div class="sm">
+                            <button class="learn-bttn">Learn</button>
+                            <a style="text-decoration: none; color: black;" href="#">Shop <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-1">
+                    <img style="height: 76%; width: 100%;" src="https://www.hp.com/content/dam/sites/worldwide/homepage/images/HP-NS-Laser-MFP-1200-thumb.jpg" alt="">
+                    <div>
+                        <h4>Small Bussiness</h4>
+                        <div class="sm">
+                            <button class="learn-bttn">Learn</button>
+                            <a style="text-decoration: none; color: black;" href="#">Shop <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="head-5">
+                <div class="box-1">
+                    <img style="height: 76%; width: 100%;" src="https://www.hp.com/content/dam/sites/worldwide/homepage/images/LaserJet-enterprise-M406.jpg" alt="">
+                    <div>
+                        <h4>Laser Jet Printers</h4>
+                        <div class="sm">
+                            <button class="learn-bttn">Learn</button>
+                            <a style="text-decoration: none; color: black;" href="#">Shop <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-1">
+                    <img style="height: 76%; width: 100%;" src="https://www.hp.com/content/dam/sites/worldwide/homepage/images/Laserjet-Managed-Flow-MFP-E82550z.jpg" alt="">
+                    <div>
+                        <h4>Multifunction Printers and Copiers</h4>
+                        <div class="sm">
+                            <button class="learn-bttn">Learn</button>
+                            <a style="text-decoration: none; color: black;" href="#">Shop <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-1">
+                    <img style="height: 76%; width: 100%;" src="https://www.hp.com/content/dam/sites/worldwide/homepage/images/graph-solutions_thumb1.jpg" alt="">
+                    <div>
+                        <h4>Graphic Solutions</h4>
+                        <div class="sm">
+                            <button class="learn-bttn">Learn</button>
+                            <a style="text-decoration: none; color: black;" href="#">Shop <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page-3">
+            <div class="cont-3">
+                <div class="left-3">
+                    <img style="width: 100%; height: 100%;" src="https://www.hp.com/content/dam/sites/worldwide/homepage/images/workforce-services.jpg" alt="">
+                </div>
+                <div class="right-3">
+                    <div class="right-3_1">
+                        <h1 style="font-size: 48px; font-weight: 100; font-family: sans-serif;">HP Workforce Services&Solutions</h1>
+                    </div>
+                    <div class="right-3_2">
+                        <h6 style="font-size: 21px; font-weight: 100; font-family: sans-serif;">Empower your terms with solutions that grow with the way you work and help achive your business outcome</h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="foot-1">
+                <h4 style="font-size: 27px; font-weight: 100;">Know exactly what you want? Skip strainght to the HP.com store.</h4>
+                <button class="shop-btn">Shop</button>
+            </div>
+            <div class="foot-2">
+                <div class="foot2-1">
+                    <p>conuntry/Region:</p>
+                    <img style="width: 18px; height: 17px; margin-left: 10px;" src="images/indianFlag.png" alt="">
+                    <p style="margin-left: 10px;">India</p>
+                </div>
+                <div class="foot2-2">
+                    <div class="foot-col">
+                        <h6>About Us</h6>
+                        <p><a href="#">Careers</a></p>
+                        <p><a href="#">Investor Relations</a></p>
+                        <p><a href="#">Sustainable impact</a></p>
+                        <p><a href="#">Press center</a></p>
+                        <p><a href="#">The center</a></p>
+                    </div>
+                    <div class="foot-col">
+                        <h6>Way to buy</h6>
+                        <p><a href="#">Shop online</a></p>
+                        <p><a href="#">HP World:Brand exclusive stores</a></p>
+                        <p><a href="#">Call an HP rep</a></p>
+                        <p><a href="#">Find a reseller</a></p>
+                        <p><a href="#">Hp Promotions</a></p>
+
+                    </div>
+                    <div class="foot-col">
+                        <h6>Support</h6>
+                        <p><a href="#">Downloaded Driversk</a></p>
+                        <p><a href="#">Support & troubleshooting</a></p>
+                        <p><a href="#">Community</a></p>
+                        <p><a href="#">Register Your products</a></p>
+                        <p><a href="#">Authorized Service Providers</a></p>
+                        <p><a href="#">Check Repair Status</a></p>
+                        <p><a href="#">Training & Certifications</a></p>
+                        <p><a href="#">Featured links</a></p>
+                    </div>
+                    <div class="foot-col">
+                        <h6>HP Partners</h6>
+                        <p><a href="#">HP Amplify Partner Program</a></p>
+                        <p><a href="#">HP Partner Portal</a></p>
+                        <p><a href="#">Developers</a></p>
+
+                    </div>
+                    <div class="foot-col">
+                        <h6>Stay Connected</h6>
+                        <p style="font-size: 25px;">
+                            <i class="fa-brands fa-square-facebook"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-square-twitter"></i>
+                        </p>
+                    </div>
+                </div>
+                <div class="foot2-3">
+                    <div class="end1">
+                        <a href="#">Recalls | </a>
+                        <a href="#">Product recycling | </a>
+                        <a href="#">Accessibility | </a>
+                        <a href="#">India  CSR Policy | </a>
+                        <a href="#">India Entity Annual Return | </a>
+                        <a href="#">Privacy | </a>
+                        <a href="#">Terms of use | </a>
+                        <a href="#">Use of cookies</a>
+
+                    </div>
+                    <div class="end2">
+                        <a href="#">© Copyright 2023 HP Development Company, L.P.</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+</body>
+</html>
